@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* ------------------- root---------------------*/
+
+/* ------------------- navigation menu---------------------*/
+
+.navigation{
+  width: 100%;
+  min-height: 60px;
+  padding: 2rem;
+  margin: 2rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.navigation > ul {
+  display: flex;
+  column-gap: 5rem;
+}
+
+.navigation > ul > li{
+  list-style-type: none;
+  min-width: 120px;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bold;
+  padding: 0.7rem 2rem;
+  border-radius: 10px;
+}
+
+.navigation > ul > li.active {
+  background: lightseagreen;
+}
+
+.navigation > ul > li > ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 1.5rem;
+  display: none;
+}
+.navigation > ul > li > ul > li{
+  list-style-type: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-left: 2rem;
+  padding: 0.4rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.navigation > ul > li > ul > li.active{
+  background: #e74c3c;
+  color: white;
+}
+
+.navigation > ul > li a{
+  text-decoration: none;
+  color: #222;
+  cursor: pointer;
+}
+.navigation > ul > li > div {
+  display: flex;
+  align-items: center;
+}
+
+.navigation > ul > li > div span {
+  margin-right: 10px;
+  color: orangered;
+}
