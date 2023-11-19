@@ -43,7 +43,7 @@ function showContent(menuId, clcBtn) {
   if (clcBtn === 'click1') {
     i1d.src = "loginpage1.html";
   }if (clcBtn=== 'click2') {
-    i1d.src = "loginpage2.html";
+    i1d.src = "login2.html";
   }
 
 }

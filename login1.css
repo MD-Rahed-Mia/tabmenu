@@ -20,9 +20,10 @@ body{
   min-height: 400px;
   background: transparent;
   border: 1px solid rgba(255, 255, 255, 0.3);
-  backdrop-filter: blur(2px);
+  backdrop-filter: blur(4px);
   border-radius: 5px;
   padding: 2rem;
+  box-shadow: 2px 1px 5px rgba(255, 255, 255, 0.3), 2px 1px 5px rgba(255, 255, 255, 0.3) inset;
 }
 .login h1 {
   color: white;
