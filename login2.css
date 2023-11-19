@@ -185,3 +185,41 @@ body{
   color: #0abde3;
   font-size: 0.9rem;
 }
+
+@media screen and (max-width: 1000px) {
+  .wrapper{
+    width: 70%;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    margin: 0 2rem;
+    padding: 1rem;
+  }
+  .wrapper_left h1 {
+    position: relative;
+    top: 130%;
+    left: 70%;
+    transform: translateX(-50%);
+  }
+  .wrapper_left p{
+    position: relative;
+    top: 100%;
+    left: 40%;
+  }
+
+}
+
+@media screen and (max-width: 540px){
+  .wrapper{
+    width: 95%;
+    display: grid;
+    grid-template-columns: auto;
+    row-gap: 3rem;
+    margin: 0 2rem;
+    padding: 0;
+  }
+  .wrapper_right {
+    padding: 0.5rem;
+    margin-top: 2rem;
+  }
+}
