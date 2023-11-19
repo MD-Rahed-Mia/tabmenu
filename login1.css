@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#00000047, #0000003f), url("img/animatedbg.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.login{
+  width: 400px;
+  min-height: 400px;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(2px);
+  border-radius: 5px;
+  padding: 2rem;
+}
+.login h1 {
+  color: white;
+  text-align: center;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.input_cont{
+  width: 100%;
+  min-height: 40px;
+  margin-top: 1.5rem;
+}
+
+.input_cont label{
+  color: white;
+}
+
+.input_cont input{
+  width: 100%;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  background: transparent;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border-radius: 20px;
+  margin: 0.5rem 0;
+  display: flex;
+}
+
+.input_cont input::placeholder{
+  color: white;
+}
+.re_cont{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.re_cont > div {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  color: white;
+}
+
+.re_cont > div a{
+  color: white;
+  text-decoration: none;
+}
+
+.btn_cont{
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  border-radius: 30px;
+  padding: 0.7rem;
+  cursor: pointer;
+}
+
+.btn_cont button {
+  width: 100%;
+  color: #222;
+  border: none;
+  background: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 30px;
+}
+.res_cont{
+  margin-top: 1rem;
+  font-size:14px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+.res_cont a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}

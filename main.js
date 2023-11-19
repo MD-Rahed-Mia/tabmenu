@@ -35,4 +35,15 @@ subMenu.forEach(function (e) {
     })
     e.classList.add("active");
   })
-})
+});
+
+function showContent(menuId, clcBtn) {
+  let i1d = document.getElementById(menuId);
+
+  if (clcBtn === 'click1') {
+    i1d.src = "loginpage1.html";
+  }if (clcBtn=== 'click2') {
+    i1d.src = "loginpage2.html";
+  }
+
+}
