@@ -44,6 +44,8 @@ function showContent(menuId, clcBtn) {
     i1d.src = "loginpage1.html";
   }if (clcBtn=== 'click2') {
     i1d.src = "login2.html";
+  }if (clcBtn=== 'register1') {
+    i1d.src = "register1.html";
   }
 
 }
